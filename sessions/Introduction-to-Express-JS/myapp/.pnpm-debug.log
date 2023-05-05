@@ -1,0 +1,513 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "myapp",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/workspace/.pnpm-store/v3",
+    "virtualStoreDir": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.18.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.18.2",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/2.6.9",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "debug",
+      "rawSpec": "2.6.9"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "found_in_store"
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/accepts/1.3.8",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "accepts",
+      "rawSpec": "~1.3.8"
+    }
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/methods/1.1.2",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "methods",
+      "rawSpec": "~1.1.2"
+    }
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "13 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "size": 5403,
+    "status": "started"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/accepts/1.3.8",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "fetched"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/escape-html/1.0.3",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "escape-html",
+      "rawSpec": "~1.0.3"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "size": 2475,
+    "status": "started"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/methods/1.1.2",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "fetched"
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/on-finished/2.4.1",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "on-finished",
+      "rawSpec": "2.4.1"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/on-finished/2.4.1",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "21 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "size": 1917,
+    "status": "started"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-html/1.0.3",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "fetched"
+  },
+  "23 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/on-finished/2.4.1",
+    "size": 5052,
+    "status": "started"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/on-finished/2.4.1",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "fetched"
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "path-to-regexp",
+      "rawSpec": "0.1.7"
+    }
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/proxy-addr/2.0.7",
+    "wanted": {
+      "dependentId": "/express/4.18.2",
+      "name": "proxy-addr",
+      "rawSpec": "~2.0.7"
+    }
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "resolved"
+  },
+  "29 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "size": 3269,
+    "status": "started"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path-to-regexp/0.1.7",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "fetched"
+  },
+  "31 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "size": 5495,
+    "status": "started"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/proxy-addr/2.0.7",
+    "requester": "/home/workspace/nodejs/sessions/Introduction-to-Express-JS/myapp",
+    "status": "fetched"
+  },
+  "33 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/cookie"
+  },
+  "34 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/http-errors"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/cookie"
+  },
+  "36 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/http-errors"
+  },
+  "37 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/qs"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/qs"
+  },
+  "39 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/encodeurl"
+  },
+  "40 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/content-type"
+  },
+  "41 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/array-flatten"
+  },
+  "42 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/body-parser"
+  },
+  "43 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/cookie-signature"
+  },
+  "44 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/depd"
+  },
+  "45 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/finalhandler"
+  },
+  "46 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/fresh"
+  },
+  "47 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ERR_SOCKET_TIMEOUT",
+      "code": "ERR_SOCKET_TIMEOUT",
+      "attempts": 1,
+      "resource": "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
+  },
+  "48 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/cookie-signature"
+  },
+  "49 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/content-type"
+  },
+  "50 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/depd"
+  },
+  "51 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/array-flatten"
+  },
+  "52 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/encodeurl"
+  },
+  "53 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/body-parser"
+  },
+  "54 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/fresh"
+  },
+  "55 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/finalhandler"
+  },
+  "56 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "attempts": 2,
+      "resource": "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
+  },
+  "57 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [
+      {
+        "id": "registry.npmjs.org/express/4.18.2",
+        "name": "express",
+        "version": "4.18.2"
+      }
+    ],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/cookie: request to https://registry.npmjs.org/cookie failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npmjs.org/cookie: request to https://registry.npmjs.org/cookie failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
